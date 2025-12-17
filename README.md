@@ -39,6 +39,7 @@ Calculator Interface
 (Screenshot of the calculator - will appear once added)
 Modern Code Review Process Demonstrated
 This project includes contributions from team members via Pull Requests. Each feature/fix was: -->
+![alt text](image.png)
 
 Implemented on a separate feature branch
 Submitted as a Pull Request with clear description

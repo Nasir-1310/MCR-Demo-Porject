@@ -10,12 +10,12 @@ body {
 
 .heading {
     text-align: center;
-    color: #333;
+    color: #b10a0a;
     font-family: Arial, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 2.5em;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .calculator {

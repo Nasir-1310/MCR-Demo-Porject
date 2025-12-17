@@ -2,9 +2,22 @@ let display = document.getElementById('display');
 let currentInput = '';
 
 function appendToDisplay(value) {
+    const operators = ['+', '-', '*', '/', '.'];
+
+    // Prevent consecutive operators
+    if (operators.includes(value) && operators.includes(currentInput.slice(-1))) {
+        return;
+    }
+
+    // Prevent starting with operator except minus
+    if (operators.includes(value) && currentInput === '' && value !== '-') {
+        return;
+    }
+
     currentInput += value;
     display.value = currentInput;
 }
+
 
 function clearDisplay() {
     currentInput = '';
